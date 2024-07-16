@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gegidze</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="text-container">
+                <img src="Gegidze logo.svg" alt="Logo" class="logo">
+                <h1>
+                    <span class="highlight">Open a Bank Account</span><br>
+                    <span class="highlight">in Georgia Remotely</span>
+                </h1>
+                <ul class="list-items">
+                    <li>Global Payments</li>
+                    <li>All Currencies</li>
+                    <li>Crypto</li>
+                </ul>
+                <button id="show-login">Contact us</button>
+                <button class="skipBtn">Connect to WIFI</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        
+        <form action="" id="contact-form" class="form">
+            <div class="form-element">
+                <label for="name">Full name</label>
+                <input class="input_class" type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-element">
+                <label for="phone">Mobile</label>
+                <input class="input_class input_email" type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+            </div>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input class="input_class" type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-element">
+                <button type="submit">Contact Us</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
