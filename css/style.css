@@ -321,9 +321,9 @@ button:hover {
         width: max-content;
     }
 }
-@media (max-width: 663px) {
+@media (max-width: 363px) {
     h1{
         background-color: #2563EB;
-        width:auto;
+        width:inherit;
     }
 }
