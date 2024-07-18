@@ -76,9 +76,9 @@ button {
 .skipBtn {
     width: 250px;
     height: 75px;
-    background-color: transparent;
+    background-color: #ffffff;
     color: #282B2B;
-    border: 2px #282B2B solid; 
+/*     border: 2px #282B2B solid;  */
     margin-left: 24px;
 }
 .skipBtn:hover {
