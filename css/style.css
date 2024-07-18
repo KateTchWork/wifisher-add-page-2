@@ -321,3 +321,9 @@ button:hover {
         width: max-content;
     }
 }
+@media (max-width: 663px) {
+    h1{
+        background-color: #2563EB;
+        width:auto;
+    }
+}
