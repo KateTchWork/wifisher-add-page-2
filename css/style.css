@@ -99,7 +99,7 @@ button:hover {
     }
 
     .text-container {
-        top: 15%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -30%);
         text-align: center;
@@ -110,7 +110,7 @@ button:hover {
     }
 
     .logo {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     h1 {
