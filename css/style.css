@@ -68,7 +68,7 @@ button {
     border-radius: 12px;
     cursor: pointer;
     font-size: 25px;
-    margin-top: 55px;
+    margin-top:clamp(24px, 5vw, 55px);
     font-family: Lexend-Medium;
 }
 
@@ -110,7 +110,8 @@ button:hover {
     }
 
     .logo {
-        margin-bottom: 40px;
+        width:120px;
+        margin-bottom:clamp(24px, 5vw, 40px);
     }
 
     h1 {
