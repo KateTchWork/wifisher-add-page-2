@@ -45,7 +45,8 @@ body, html {
 }
 
 h1 {
-    font-size: clamp(24px, 5vw, 50px);
+/*     font-size: clamp(24px, 5vw, 50px); */
+    font-size: 58px;
     line-height: 122%;
     text-transform: uppercase;
 }
@@ -113,7 +114,7 @@ button:hover {
     }
 
     h1 {
-        font-size: clamp(18px, 4vw, 50px);
+        font-size: clamp(26px, 5vw, 50px);
     }
 
     button, .skipBtn {
@@ -310,5 +311,11 @@ button:hover {
 @media (max-width: 386px) {
     .list-items{
         display: block;
+    }
+}
+
+@media (max-width: 418px) {
+    h1{
+        background-color: #2563EB;
     }
 }
